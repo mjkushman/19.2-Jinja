@@ -20,7 +20,8 @@ class Story:
 
     def __init__(self, words, text):
         """Create story with words and template text."""
-
+    # words is an array of verbs,nouns, adjectives
+    # text is a story as a string
         self.prompts = words
         self.template = text
 
